@@ -9,7 +9,7 @@ void main()
     int a=1;
     e=0;
     printf("rate? y1/n2");
-    scanf("%c",a);
+    scanf("%d",a);
     while (a==1){
        printf("?/5");
        scanf("%f",k);
@@ -24,6 +24,6 @@ void main()
            }
        }
        printf("rate? y/n");
-       scanf("%c",a);
+       scanf("%d",a);
     }
 }
