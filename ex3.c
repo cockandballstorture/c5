@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 void main()
-{   int n,m,p,q,i,e;
+{   int n,m,i;
     char a[35];
     char r[35];
     scanf("%15s", a);
