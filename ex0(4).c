@@ -7,5 +7,8 @@ int main()
     int *q;
     p=&s;
     q=p;
+    printf("%d,%d\n",*p,*q);
+    *p--;
+    *q++;
     printf("%d,%d",*p,*q);
 }
