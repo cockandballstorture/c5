@@ -20,7 +20,7 @@ void main()
        strncat(a, y, m);
     }
     printf("%s\n",r);
-    if (n<15){
+    if (n<16){
         strncpy(r, a, e);
         strncat(r, y, e);
         for (i=0;i<n+1;i++){
