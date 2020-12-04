@@ -19,7 +19,6 @@ void main()
     if(n<15){
        strncat(a, y, m);
     }
-    printf("%s\n",r);
     if (n<16){
         strncpy(r, a, e);
         strncat(r, y, e);
