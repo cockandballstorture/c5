@@ -11,7 +11,6 @@ void main()
     if(n<16){
        strncat(a, y, m);
     }
-    printf("%s\n",a);
     for (i=8;i<16;i++){
        a[i]=a[15-i];
     }
