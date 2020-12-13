@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <math.h>
-void rate();
 void main()
 {  
     int e,i;
