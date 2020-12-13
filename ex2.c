@@ -15,7 +15,7 @@ void main()
         y=n-y;
         n=n-y;
     }
-    for (q=1;q<n;q++){
+    for (q=1;q<n+1;q++){
         if(m=strncmp(a, b, q)!=0){
             printf("%d",q);
             break;
